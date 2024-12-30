@@ -1,0 +1,49 @@
+.techteam-dashboard {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+header button:hover {
+    background-color: #c82333;
+}
+
+main {
+    margin-top: 20px;
+}
+
+main button {
+    margin: 10px;
+    padding: 15px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+main button:hover {
+    background-color: #218838;
+}
